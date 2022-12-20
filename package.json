@@ -1,0 +1,34 @@
+{
+  "name": "voice-recorder",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start_dev": "NODE_ENV=development electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "build": {
+    "appId": "com.voicerecorder.recorder",
+    "mac": {
+      "icon": "./src/windows/images/icon.png"
+    },
+    "win": {
+      "icon": "./src/windows/images/icon.png"
+    },
+    "linux": {
+      "icon": "./src/windows/images/icon.png"
+    }
+  },
+  "devDependencies": {
+    "electron": "^22.0.0",
+    "electron-builder": "^23.6.0"
+  },
+  "optionalDependencies": {
+    "win-node-env": "^0.6.1"
+  }
+}
