@@ -1,7 +1,7 @@
 {
   "name": "voice-recorder",
   "version": "1.0.0",
-  "description": "",
+  "description": "Record your voice",
   "main": "main.js",
   "scripts": {
     "start": "electron .",
@@ -10,7 +10,14 @@
     "dist": "electron-builder"
   },
   "keywords": [],
-  "author": "",
+  "author": "João Victor",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-faust/voice-recorder.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joao-faust/voice-recorder/issues"
+  },
   "license": "ISC",
   "build": {
     "appId": "com.voicerecorder.recorder",
